@@ -8,11 +8,11 @@ let upgradesBought = [0, 0, 0, 0 , 0]
 let multipliers = [1, 1, 1, 1, 1]
 const upgradeRequirements = [10, 25, 50, 100]
 let imgSrc = [
-	"https://freesvg.org/img/hand_isometric.png",
-	"https://image.freepik.com/free-vector/sweet-grandma-s-cookies_61841-341.jpg",
-	"https://thumbs.dreamstime.com/b/wheat-field-blue-sunny-sky-square-format-wheat-field-blue-sunny-sky-square-format-warm-soft-look-134369034.jpg",
-	"https://image.freepik.com/free-vector/mine-rock-mining-pickaxe-hits-stone-wooden-trolley-with-coal-flat-illustration-isolated-white-background_124715-654.jpg",
-	"https://www.vippng.com/png/detail/505-5057634_cape-town-based-fabrication-company-factory-cartoon-transparent.png"
+	"img/cursor.png",
+	"img/grandma.jpg",
+	"img/farm.jpg",
+	"img/mine.jpg",
+	"img/factory.png"
 ]
 let itemTypes = ["cursor", "grandma", "farm", "mine", "factory"]
 let goldenCookieTimeout = randomBetween(60, 300)
@@ -24,7 +24,7 @@ function randomBetween(first, last) {
 
 function spawnGoldenCookie() {
 	let goldenCookie = document.createElement("img")
-	goldenCookie.src = "https://clipartix.com/wp-content/uploads/2016/04/Cookies-clipart-free-clipart-images.png"
+	goldenCookie.src = "img/cookie.png"
 	goldenCookie.id = "goldenCookie"
 	goldenCookie.setAttribute("class", "goldenCookie")
 	goldenCookie.style.left = randomBetween(64, 1280)
