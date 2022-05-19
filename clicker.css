@@ -1,0 +1,108 @@
+.gray {background-color: gainsboro}
+
+.blue {background-color: lightskyblue}
+
+.green {background-color: lightgreen}
+
+.orange {background-color: lightsalmon}
+
+.purple {background-color: mediumslateblue}
+
+.yellow {background-color: lemonchiffon}
+
+#leftSeparator {left: 0%}
+
+#leftMidSeparator {left: 33%}
+
+#rightMidSeparator {left: 66%}
+
+#rightSeparator {left: 99%}
+
+.sectionSeparator {
+	top: 0px;
+	height: 100%;
+	width: 1%;
+	position: fixed;
+	filter: brightness(50%)
+}
+
+#leftDiv {left: 2%}
+
+#midDiv {
+	left: 35%;
+	text-align: center;
+}
+
+#rightDiv {left: 68%}
+
+#clickableCookie {
+	display: block;
+	top: 20%;
+	margin: auto;
+	position: relative;
+}
+
+.buyableData {display: inline-block;}
+
+.sectionDiv {
+	width: 30%;
+	top: 0px;
+	height: 100%;
+	position: fixed;
+}
+
+select {
+	background-color: #FFFFFF;
+	color: #000000
+	border: 2px solid #000000;
+	border-radius: 4px;
+	padding: 8px;
+	font-size: 16px;
+	display: block;
+	width: 80%;
+	margin-top: 4px;
+}	
+
+button {
+	background-color: #FFFFFF;
+	color: #000000
+	border: 2px solid #000000;
+	border-radius: 4px;
+	padding: 8px;
+	font-size: 16px;
+	display: block;
+	width: 80%;
+	margin-top: 4px;
+}	
+
+.goldenCookie {
+	width: 128px;
+	height: 128px;
+	filter: brightness(150%);
+	position: fixed;
+}
+
+.buyable {
+	width: 64px;
+	height: 64px;
+	border-radius: 8px;
+	border: 2px solid #000000;
+	background-color: #FFFFFF;
+}
+
+.smallCookie {
+	width: 240px;
+	height: 240px;
+	display: block;
+}
+
+.bigCookie {
+	width: 256px;
+	height: 256px;
+	display: block;
+}
+
+.title {
+	font-size: 300%;
+	display: block;
+}
