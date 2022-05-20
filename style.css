@@ -34,7 +34,6 @@
 #midDiv {
 	left: 35%;
 	text-align: center;
-	height: 100%;
 }
 
 #rightDiv {left: 68%;}
@@ -52,6 +51,7 @@
 	width: 30%;
 	top: 0px;
 	position: fixed;
+	height: 100%;
 }
 
 select {
