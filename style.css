@@ -26,13 +26,15 @@
 	filter: brightness(50%)
 }
 
-#leftDiv {left: 2%}
+#leftDiv {
+	left: 2%;
+	overflow: scroll;
+}
 
 #midDiv {
 	left: 35%;
 	text-align: center;
 	height: 100%;
-	overflow: scroll;
 }
 
 #rightDiv {left: 68%;}
