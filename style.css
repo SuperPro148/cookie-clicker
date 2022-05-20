@@ -31,9 +31,10 @@
 #midDiv {
 	left: 35%;
 	text-align: center;
+	height: 100%;
 }
 
-#rightDiv {left: 68%}
+#rightDiv {left: 68%;}
 
 #clickableCookie {
 	display: block;
@@ -47,7 +48,6 @@
 .sectionDiv {
 	width: 30%;
 	top: 0px;
-	height: 100%;
 	position: fixed;
 }
 
