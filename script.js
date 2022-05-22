@@ -55,16 +55,7 @@ function exportSave() {
 
 function importSave() {
 	let allData = prompt("paste the saved code")
-	let values = []
-	let temp = []
-	for (i=0;i<=allData.length;i++) {
-		if (allData.charAt(i) == "-") {
-			values.push(temp.join(""))
-			temp = []
-		} else {
-			temp.push(allData.charAt(i))
-		}
-	}
+	let values = allData.split("-")
 	cookies = parseInt(values[0]);
 	document.getElementById("cookies").innerHTML = "cookies " + cookies.toFixed(1)
 	for (i=1;i<6;i++) {
