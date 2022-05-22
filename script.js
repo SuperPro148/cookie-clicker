@@ -50,7 +50,7 @@ function clickGoldenCookie(type) {
 function exportSave() {
 	let allData = [Math.round(cookies), amounts.join("-"), prices.join("-"), upgradesUnlocked.join("-"), upgradesBought.join("-") , multipliers.join("-")]
 	allData = allData.join("-")
-	alert("save this code " + allData + "-")
+	alert("save this code " + allData)
 }
 
 function importSave() {
